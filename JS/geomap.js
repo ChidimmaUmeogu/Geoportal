@@ -137,7 +137,7 @@ var treecoverWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialde
     format: 'image/png',
     transparent: true,
     attribution: ""
-})//.addTo(map)
+}).addTo(map)
 
 // WMS Healthsites
 var healthsitesWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wms", {
