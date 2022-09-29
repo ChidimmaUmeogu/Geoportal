@@ -1,0 +1,89 @@
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.maparea {
+    background-color: brown;
+    height: calc(96.4vh - 76px)
+}
+
+.toolbox {
+    width: 200px;
+    min-height: 200px;
+    position: absolute;
+    left: 10px;
+    background: aqua;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.card {
+    background: #fff;
+    border: 0;
+}
+
+/*.switch {
+    position: relative;
+    display: block;
+    width: 46px;
+    height: 19px;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.switch input {
+    display: block;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    left: 4px;
+    bottom: 2px;
+    background: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider .round {
+    border-radius: 34px;
+}
+
+.slider .round {
+    border-radius: 50%;
+}
+
+.list-group-item {
+    padding: 10px 20px;
+}
+
+input:default:checked+.slider:before {
+    background-color: #444;
+}
+
+input:success:checked+.slider:before {
+    background-color: #444;
+}*/

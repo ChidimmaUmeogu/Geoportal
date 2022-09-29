@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Geospatial web development, Web GIS, Vegetation, Biodiversity">
+    <meta name="description" content="Vegetation AnalyticaL tool">
+    <title>GeoMap</title>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.0/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <link rel="stylesheet" href="CSS/geomap.css">
+    <link rel="stylesheet" href="CSS/stylesgeodev.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="padding: 0;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="logo" href="#">
+            <img src="IMG/logo.png">
+          </a>
+          <a class="navbar-brand" href="#">VeMAT Lab</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+            <!--<form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+          </div>
+        </nav>
+      </div>
+    <div id="map">
+        <div id="latlong"></div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/leaflet@1.9.0/dist/leaflet.js"
+        integrity="sha256-oH+m3EWgtpoAmoBO/v+u8H/AdwB/54Gc/SgqjUKbb4Y=" crossorigin=""></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script src="JS/leaflet.browser.print.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+    <script src="DATA/Healthfacilities.js"></script>
+    <script src="DATA/RailwayLines.js"></script>
+    <script src="DATA/Regions.js"></script>
+
+    <script src="JS/geomap.js"></script>
+   
+</body>
+
+</html>
