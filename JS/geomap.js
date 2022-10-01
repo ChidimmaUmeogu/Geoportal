@@ -98,8 +98,7 @@ var healthfacilitylayer = L.geoJson(healthfacility,{
     pointToLayer:function(feature, latlng) {
         return L.circleMarker(latlng,healthStyle);
     }
-})
-//.addTo(map)
+}).addTo(map)
 
 // Railway Layer Style
 var railStyle = {
@@ -118,8 +117,7 @@ var railwaylayer = L.geoJson(railway,{
     onEachFeature:function (feature, layer) {
         layer.bindPopup(feature.properties.NAME)
     }
-})
-//.addTo(map)
+}).addTo(map)
 
 
 // Adding WMS Layers
@@ -129,7 +127,7 @@ var riverWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wm
     format: 'image/png',
     transparent: true,
     attribution: ""
-}).addTo(map)
+})//.addTo(map)
 
 // WMS Treecover
 var treecoverWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wms", {
@@ -137,7 +135,7 @@ var treecoverWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialde
     format: 'image/png',
     transparent: true,
     attribution: ""
-}).addTo(map)
+})//.addTo(map)
 
 // WMS Healthsites
 var healthsitesWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wms", {
@@ -145,7 +143,7 @@ var healthsitesWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatial
     format: 'image/png',
     transparent: true,
     attribution: ""
-}).addTo(map)
+})//.addTo(map)
 
 // WMS POIs
 var poisWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wms", {
@@ -153,7 +151,7 @@ var poisWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wms
     format: 'image/png',
     transparent: true,
     attribution: ""
-}).addTo(map)
+})//.addTo(map)
 
 // WMS Railway tracks
 var railwaytracksWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatialdev/wms", {
@@ -161,7 +159,7 @@ var railwaytracksWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospati
     format: 'image/png',
     transparent: true,
     attribution: ""
-}).addTo(map)
+})//.addTo(map)
 
 // Basemaps
 var baseLayers = {
